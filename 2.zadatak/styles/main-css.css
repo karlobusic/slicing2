@@ -1,0 +1,86 @@
+
+body{
+    font-family: Lato;
+}
+
+.header-main{
+    height: 800px;
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 10px 50px -2px rgba(0,0,0,0.75);
+}
+
+
+.heading{
+    height: 300px;
+    padding: 2%;
+    font-size: 12px;
+    text-align: center;
+}
+.heading>h1{
+    padding-top:100px;
+    text-align: center;
+
+}
+.main{
+    height: 500px;
+}
+.menu{
+    display:block;
+    float: left;
+    padding: 5px 15px;
+    color: black;
+}
+
+
+.img{
+    background-image: url('http://www.martijnvandernat.nl/wp-content/uploads/2017/03/IMG_6805-930x698.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    width: 400px;
+    margin:auto auto;
+  }
+
+.years{
+    text-align: center;
+    margin: auto;
+    word-spacing: 15px;
+    color: gray;
+    font-size: 13px;
+}
+
+.date{
+    opacity: 0.4;
+    padding-top: 70px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.main>h2{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.main>p{
+    font-size: 10px;
+    text-align: center;
+    line-height: 18px;
+    padding-top:20px;
+    color:DimGray;
+}
+
+.order{
+    display:block;
+    float: right;
+    border: solid;
+    padding: 5px 15px;
+    font-size: 10px;
+    border-color: Tomato;
+    border-radius: 600px;
+    background-color: white;
+}
